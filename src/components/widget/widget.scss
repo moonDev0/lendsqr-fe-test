@@ -1,0 +1,89 @@
+.widgets{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 10px 0px 10px;
+}
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 140px;
+  // left: 343px;
+  background: #FFFFFF;
+  // background-color: red;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 240px !important;
+  width: 240px;
+  padding: 20px 30px 20px 30px;
+
+
+.widget-icon{
+  width: 50px;
+  height: 50px;
+  background-color: #ebdded;
+  // opacity: 0.1;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h2{
+  color: blue;
+  font-size: 24px;
+}
+.ico{
+  opacity: 100%;
+  color: black;
+}
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      // color: rgb(160, 160, 160);
+      color: #545F7D;
+      
+    }
+
+    .counter {
+      font-size: 28px;
+      font-weight: 300;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+    }
+
+    .percentage {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+
+      &.positive {
+        color: green;
+      }
+      &.negative {
+        color: red;
+      }
+    }
+
+    .icon {
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+    }
+  }
+}

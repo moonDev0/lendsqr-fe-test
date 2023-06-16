@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  justify-content: center;
+  background-color: #e6f5ed78;
+
+  .homeContainer {
+    flex: 6;
+    margin-top: 100px;
+    justify-content: center;
+
+    .widgets,
+    .charts {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+    .widgets{
+      width: 90%;
+      justify-content: space-between;
+      margin: 40px 0px 0px 0px;
+      margin: auto;
+      // margin-top: 50px;
+      
+    }
+    h3{
+      color: #213F7D;
+      width: 90%;
+      font-family: Work sans;
+      font-size: 24px;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+    .charts {
+      padding: 5px 20px;
+    }
+
+    .listContainer {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      width: 90%;
+      margin: auto;
+      margin-top: 40px;
+
+      .listTitle {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
