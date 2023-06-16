@@ -10,12 +10,12 @@ const LoginPage: React.FC = () => {
   const handleLogin = () => {
     // Perform login logic here
     // Once logged in, navigate to the dashboard page
-    navigate('/admin');
+    navigate('/home');
   };
 
   return (
     <div className="login-container">
-     <div className="logo">
+     <div className="logos">
      <img src={logo} alt="" />
      </div>
       <div className="login-content">

@@ -17,9 +17,12 @@ function App(): ReactElement {
     <div className={darkMode ? "app dark" : "app"}>
       <BrowserRouter>
         <Routes>
-          <Route path="/">
+          <Route index element={<Login/>}/>
+        </Routes>
+        <Routes>
+
+          <Route path="/home">
             <Route index element={<Home />} />
-            <Route path="login" element={<Login />} />
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userId" element={<Single />} />
